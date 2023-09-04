@@ -27,7 +27,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  text-align: center;
   color: #000;
   text-align: center;
   font-family: Lato;
@@ -96,10 +95,40 @@ video {
   gap: 12px;
 }
 
-.section-5 .box {
-  align-items: stretch;
+.section-5 {
+  justify-content: flex-end;
+  align-items: center;
+  align-content: baseline;
   padding: 10px;
   margin: 0;
+}
+
+.section-5 .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-5 .box-1 {
+  width: 100px;
+  height: 75px;
+}
+
+.section-5 .box-3 {
+  width: 100px;
+  height: 98.684px;
+  flex-shrink: 0;
+}
+
+.section-5 .box-2 {
+  width: 100px;
+  height: 148.026px;
+  flex-shrink: 0;
+}
+
+.section-5 .box-4 {
+  width: 100px;
+  height: 197.368px;
+  flex-shrink: 0;
 }
 
 /* =====
